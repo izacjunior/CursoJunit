@@ -1,0 +1,13 @@
+package atividade11;
+
+import org.junit.Test;
+
+public class Junit4 {
+	
+	@Test
+	public void testeJunit4() {
+		System.out.println("Junit 4 executado");
+	}
+	
+
+}

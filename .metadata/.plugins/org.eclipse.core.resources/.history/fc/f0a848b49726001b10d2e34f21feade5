@@ -1,0 +1,5 @@
+@RunWith(JUnitPlatform.class)
+@SelectPackages({ "atividade1","atividade5","atividade8"})
+@IncludePackages("atividade8")
+@ExcludePackages("atividade1")
+public class SuiteTestrrr {

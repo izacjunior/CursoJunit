@@ -1,0 +1,14 @@
+package atividade9;
+
+import org.junit.Test;
+
+public class junit4 extends Junit412{
+	
+	
+	@Test
+	public void testJunit4() {
+		System.out.println("Junit 4");
+
+	}
+
+}

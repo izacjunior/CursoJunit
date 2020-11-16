@@ -1,0 +1,26 @@
+package atividade7;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+@RunWith(Parameterized.class)
+public class Parametrizar {
+	
+	String nome;
+	int idade;
+	String endereco;
+	
+	public Parametrizar(String nome, int idade, String endereco) {
+		
+		this.nome = nome;
+		this.idade = idade;
+		this.endereco = endereco;
+				
+		
+	}
+		
+	
+	@Parameters
+	public static Collection<Object[]>
+	
+}

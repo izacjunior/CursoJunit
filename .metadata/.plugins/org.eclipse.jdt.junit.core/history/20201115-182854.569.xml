@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ParametrizarSemConstrutor" project="JunitTest" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="atividade8.ParametrizarSemConstrutor" time="0.0">
+    <testsuite name="[Carlos - 65 - 1,8 - Carlos Obesidade grau II]" time="0.0">
+      <testcase name="validarImc[Carlos - 65 - 1,8 - Carlos Obesidade grau II]" classname="atividade8.ParametrizarSemConstrutor" time="0.0"/>
+    </testsuite>
+    <testsuite name="[Maria - 55 - 1,6 - Maria Obesidade grau I]" time="0.0">
+      <testcase name="validarImc[Maria - 55 - 1,6 - Maria Obesidade grau I]" classname="atividade8.ParametrizarSemConstrutor" time="0.0"/>
+    </testsuite>
+    <testsuite name="[Paulo - 90 - 1,9 - Paulo Obesidade grau III]" time="0.0">
+      <testcase name="validarImc[Paulo - 90 - 1,9 - Paulo Obesidade grau III]" classname="atividade8.ParametrizarSemConstrutor" time="0.0"/>
+    </testsuite>
+    <testsuite name="[Jose - 40 - 1,7 - Jose Peso normal]" time="0.0">
+      <testcase name="validarImc[Jose - 40 - 1,7 - Jose Peso normal]" classname="atividade8.ParametrizarSemConstrutor" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

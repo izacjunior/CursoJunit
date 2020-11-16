@@ -1,0 +1,19 @@
+package atividade9;
+
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.platform.suite.api.ExcludePackages;
+import org.junit.platform.suite.api.IncludePackages;
+import org.junit.platform.suite.api.SelectClasses;
+import org.junit.platform.suite.api.SelectPackages;
+import org.junit.runner.RunWith;
+
+import atividade5.RepetirTests;
+
+@RunWith(JUnitPlatform.class)
+//@SelectPackages({"atividade5", "atividade8"})
+//@IncludePackages("atividade8")
+//@ExcludePackages("atividade8")
+@SelectClasses(RepetirTests.class)
+public class SuiteTestes {
+
+}

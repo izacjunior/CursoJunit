@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ParametrizarCSV" project="JunitTest" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="atividade8.ParametrizarCSV" time="0.0">
+    <testsuite name="validarTestes" time="0.0">
+      <testcase name="validarTestes(Maria, 50, 1.65, Teste) [0]" classname="atividade8.ParametrizarCSV" time="0.0"/>
+      <testcase name="validarTestes(Jose, 88, 1.75, teste) [1]" classname="atividade8.ParametrizarCSV" time="0.0"/>
+      <testcase name="validarTestes(Paulo, 70, 1.88, teste) [2]" classname="atividade8.ParametrizarCSV" time="0.0"/>
+      <testcase name="validarTestes(Carlos, 90, 1.95, teste) [3]" classname="atividade8.ParametrizarCSV" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

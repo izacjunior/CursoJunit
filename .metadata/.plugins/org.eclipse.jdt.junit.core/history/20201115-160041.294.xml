@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Parametrizar" project="JunitTest" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="atividade7.Parametrizar" time="0.0">
+    <testsuite name="[Izac - 68 - 1,7 - Izac Obesidade grau III]" time="0.0">
+      <testcase name="testar[Izac - 68 - 1,7 - Izac Obesidade grau III]" classname="atividade7.Parametrizar" time="0.0"/>
+    </testsuite>
+    <testsuite name="[Maria - 50 - 1,58 - Maria Obesidade grau I]" time="0.0">
+      <testcase name="testar[Maria - 50 - 1,58 - Maria Obesidade grau I]" classname="atividade7.Parametrizar" time="0.0"/>
+    </testsuite>
+    <testsuite name="[Julio - 78 - 1,81 - Julio Obesidade grau III]" time="0.0">
+      <testcase name="testar[Julio - 78 - 1,81 - Julio Obesidade grau III]" classname="atividade7.Parametrizar" time="0.0"/>
+    </testsuite>
+  </testsuite>
+</testrun>

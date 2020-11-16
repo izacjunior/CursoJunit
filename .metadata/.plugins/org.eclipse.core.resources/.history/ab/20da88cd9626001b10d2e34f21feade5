@@ -1,0 +1,16 @@
+package suitsss;
+
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.platform.suite.api.IncludePackages;
+import org.junit.platform.suite.api.SelectClasses;
+import org.junit.platform.suite.api.SelectPackages;
+import org.junit.runner.RunWith;
+
+import atividade1.TestesJunit5;
+
+@RunWith(JUnitPlatform.class)
+@SelectPackages({ "atividade1","atividade5"})
+@IncludePackages("atividade8.NestedTests.class")
+public class SuiteTestrrr {
+
+}

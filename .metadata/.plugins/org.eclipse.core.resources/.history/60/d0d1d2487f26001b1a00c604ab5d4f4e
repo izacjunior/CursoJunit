@@ -1,0 +1,19 @@
+package suite;
+
+import org.junit.internal.runners.JUnit4ClassRunner;
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.platform.suite.api.SelectClasses;
+import org.junit.platform.suite.api.SuiteDisplayName;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite.SuiteClasses;
+
+import atividade1.PrePosCondicao;
+
+
+@RunWith(JUnitPlatform.class)
+@SuiteDisplayName("Teste suite")
+//@SuiteClasses(PrePosCondicao.class)
+@SelectClasses(PrePosCondicao.class)
+public class Suite5 {
+
+}

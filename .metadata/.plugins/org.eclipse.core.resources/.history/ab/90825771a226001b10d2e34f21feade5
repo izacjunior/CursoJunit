@@ -1,0 +1,12 @@
+package atividade11;
+
+import org.junit.jupiter.api.Test;
+
+public class Junit5 extends ConfiguracaoJunit4{
+	
+	@Test
+	public void testeJunit5() {
+		System.out.println("Junit 5 executado");
+	}
+
+}

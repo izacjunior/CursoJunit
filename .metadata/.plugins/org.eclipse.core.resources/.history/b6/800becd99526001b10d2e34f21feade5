@@ -1,0 +1,24 @@
+package atividade5;
+
+import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Test;
+
+public class RepetirTests {
+
+	// @RepeatedTest(5)
+	public void repeticaoTest() {
+		System.out.println("Teste");
+
+	}
+
+	@RepeatedTest(value = 3, name = "Repeticao de Teste: {currentRepetition}/{totalRepetitions}")
+	public void repeticaoTest2() {
+		System.out.println("Teste");
+	}
+
+	@Test
+	public void repeticaoTest1() {
+		System.out.println("Teste do Teste ");
+
+	}
+}

@@ -1,0 +1,37 @@
+package atividade4;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.ValueSource;
+class Parametrizar {
+
+	@ParameterizedTest
+	@ValueSource(strings = { "Teste1", "Teste2" })
+	public void testeParametrizado(String texto) {
+		assertNotNull(texto);
+	}
+	    
+	@ParameterizedTest
+	@ValueSource(ints = { 1, 2, 3, 4, 5 })
+	public void Bnumeros(int valor) {
+		assertTrue(valor > 0 && valor < 10);
+
+	}
+	@ParameterizedTest(name = "Numeros validados {index}: {0}")
+	@ValueSource(ints = { 5, 6, 7, 8, 9 })
+	public void AnumerosInteiros(int valores) {
+		assertNotNull(valores, "NUMEROS IMPRESSOS");
+
+	}
+	@ParameterizedTest
+	@CsvFileSource(resources = "/src/test/java/atividade4/numeros.csv")
+	public void AnumerosInteiro(int valores) {
+		assertNotNull(valores, "NUMEROS IMPRESSOS");
+
+	}
+
+}

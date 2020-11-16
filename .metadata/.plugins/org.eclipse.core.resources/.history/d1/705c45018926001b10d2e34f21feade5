@@ -1,0 +1,79 @@
+package atividade7;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+import org.junit.jupiter.api.Test;
+
+@DisplayName("Classe 1")
+public class Teste {
+
+	@BeforeAll
+	static void beforeAll() {
+		System.out.println("Before all Classe 1");
+	}
+
+	@BeforeEach
+	void beforeEach() {
+		System.out.println("Before each Classe 1");
+	}
+
+	@AfterEach
+	void afterEach() {
+		System.out.println("After each Classe 1");
+	}
+
+	@AfterAll
+	static void afterAll() {
+		System.out.println("After all Classe 1");
+	}
+
+	@Test
+	void teste() {
+		System.out.println("teste 1 Classe 1");
+	}
+	@Nested
+	@DisplayName("Classe 2")
+	class A {
+
+		@BeforeEach
+		void beforeEach() {
+			System.out.println("Before each Classe 2");
+		}
+
+		@AfterEach
+		void afterEach() {
+			System.out.println("After each Classe 2");
+		}
+
+		@Test
+		@DisplayName("Teste Classe 2")
+		void sampleTestForMethodA() {
+			System.out.println("Teste 2 Classe 2");
+		}
+
+		@Nested
+		@DisplayName("Classe 3")
+		class WhenX {
+
+			@BeforeEach
+			void beforeEach() {
+				System.out.println("Before each Classe 3");
+			}
+
+			@AfterEach
+			void afterEach() {
+				System.out.println("After each Classe 3");
+			}
+
+			@Test
+			@DisplayName("Teste Classe 3")
+			void sampleTestForMethodAWhenX() {
+				System.out.println("Teste Classe 3");
+			}
+		}
+	}
+}

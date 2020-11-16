@@ -1,0 +1,25 @@
+package atividade9;
+
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.platform.suite.api.ExcludeTags;
+import org.junit.platform.suite.api.IncludeClassNamePatterns;
+import org.junit.platform.suite.api.IncludeTags;
+import org.junit.platform.suite.api.SelectClasses;
+import org.junit.platform.suite.api.SelectPackages;
+import org.junit.runner.RunWith;
+
+import atividade5.RepetirTests;
+import atividade8.NestedTests;
+
+@RunWith(JUnitPlatform.class)
+@SelectPackages({"atividade5", "atividade8"})
+//@IncludePackages("atividade8")
+//@ExcludePackages("atividade8")
+//@SelectClasses({RepetirTests.class, NestedTests.class})
+@IncludeClassNamePatterns({"^.*TesteA?$"})
+
+//@IncludeTags("Rodar")
+//@ExcludeTags("Rodar")
+public class SuiteTestes {
+
+}

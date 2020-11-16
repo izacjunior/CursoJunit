@@ -1,0 +1,15 @@
+package suite;
+
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.platform.suite.api.SelectClasses;
+import org.junit.runner.RunWith;
+
+import atividade1.PrePosCondicao;
+import teste.Neste;
+
+
+@RunWith(JUnitPlatform.class)
+@SelectClasses({PrePosCondicao.class})
+public class Suite5 {
+
+}

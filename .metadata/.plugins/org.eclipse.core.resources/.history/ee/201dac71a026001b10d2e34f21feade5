@@ -1,0 +1,34 @@
+package atividade9;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+
+class Junit412 {
+
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
+		System.out.println("Befforeall");
+
+	}
+
+	@AfterAll
+	static void tearDownAfterClass() throws Exception {
+		System.out.println("afterAll");
+
+	}
+
+	@BeforeEach
+	void setUp() throws Exception {
+		System.out.println("Beforeeach");
+
+	}
+
+	@AfterEach
+	void tearDown() throws Exception {
+		System.out.println("afterEach");
+
+	}
+
+}

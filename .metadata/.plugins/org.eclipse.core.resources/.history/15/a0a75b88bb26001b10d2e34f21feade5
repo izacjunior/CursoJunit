@@ -1,0 +1,15 @@
+package atividade1;
+
+import org.junit.jupiter.api.Test;
+
+public class TestesJunit5 {
+
+	@Test
+	public String metodoTesteJunit5() {
+
+		String valor = "Teste";
+		System.out.println("Testes Junit 5");
+		return valor;
+	}
+
+}

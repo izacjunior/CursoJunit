@@ -1,0 +1,15 @@
+package suite;
+
+import org.junit.platform.runner.JUnitPlatform;
+import org.junit.platform.suite.api.*;
+import org.junit.runner.RunWith;
+
+import atividade5.RepetirTests;
+import teste.Neste;
+
+@RunWith(JUnitPlatform.class)
+@SelectPackages({"atividade4", "atividade5","atividade1","atividade2","atividade3","atividade6", "atividade7"})
+//@SelectClasses({RepetirTests.class})
+public class Suite5 {
+
+}

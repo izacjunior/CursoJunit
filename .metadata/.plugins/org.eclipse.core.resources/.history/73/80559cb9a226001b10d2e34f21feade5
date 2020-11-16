@@ -1,0 +1,39 @@
+package atividade11;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class ConfiguracaoJunit4 {
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		System.out.println("BEFFORECLASS Junit 4 executado");
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+		System.out.println("AFTERCLASS Junit 4 executado");
+
+	}
+
+	@Before
+	public void setUp() throws Exception {
+		System.out.println("BEFFORE Junit 4 executado");
+
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		System.out.println("AFTER Junit 4 executado");
+
+	}
+	@Test
+	public void testeJunit5() {
+		System.out.println("Junit 4 executado Configuracao");
+	}
+}

@@ -1,0 +1,34 @@
+package atividade11;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+
+class Configuracao {
+
+	@BeforeAll
+	static void setUpBeforeClass() throws Exception {
+		System.out.println("BEFFOREALL Junit 5 executado");
+
+	}
+
+	@AfterAll
+	static void tearDownAfterClass() throws Exception {
+		System.out.println("AFTERALL Junit 5 executado");
+
+	}
+
+	@BeforeEach
+	void setUp() throws Exception {
+		System.out.println("BEFOREEACH Junit 5 executado");
+
+	}
+
+	@AfterEach
+	void tearDown() throws Exception {
+		System.out.println("AFTEREACH Junit 5 executado");
+
+	}
+
+}

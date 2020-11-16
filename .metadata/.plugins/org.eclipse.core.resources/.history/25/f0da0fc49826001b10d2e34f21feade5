@@ -1,0 +1,10 @@
+package atividade9;
+
+import org.junit.runner.RunWith;
+
+@RunWith(JUnitPlatform.class)
+@SelectPackages("atividade5")
+
+public class SuiteTestes {
+
+}
